@@ -1,0 +1,27 @@
+lib
+├── main.dart
+├── models
+├── providers
+│   └── app_state_provider.dart
+├── screens
+│   ├── know_more_screen.dart
+│   ├── login_screen.dart
+│   ├── notificaciones
+│   │   └── notificaciones_screen.dart
+│   ├── pending_activation_screen.dart
+│   ├── perfil
+│   │   ├── datos_economicos_screen.dart
+│   │   ├── datos_familia_screen.dart
+│   │   └── datos_personales_screen.dart
+│   ├── portal_dashboard_screen.dart
+│   ├── register_screen.dart
+│   └── welcome_screen.dart
+├── services
+├── shared
+│   └── menu_drawer.dart
+├── utils
+│   ├── colors.dart
+│   └── styles.dart
+└── widgets
+
+10 directories, 15 files
