@@ -265,4 +265,4 @@ Fondo **`#2044A8`**, texto e íconos **blancos**.
 
 ---
 
-*Este prompt acompaña al proyecto **portal_vecino_app** / marca **MuniLab**; sincronízalo si cambian textos en la app.*
+*Este prompt acompaña al proyecto **Munilab** (marca **MuniLab**); sincronízalo si cambian textos en la app.*

@@ -1,11 +1,11 @@
 {
-    "name": "portal_vecino_app",
-    "short_name": "portal_vecino_app",
+    "name": "MuniLab",
+    "short_name": "MuniLab",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Portal Vecino municipal — beneficios, talleres y Tarjeta Vecino.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

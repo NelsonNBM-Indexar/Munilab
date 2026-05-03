@@ -1,6 +1,6 @@
-# portal_vecino_app
+# Munilab (MuniLab)
 
-A new Flutter project.
+Portal ciudadano Flutter: beneficios municipales, talleres, eventos, emprendimientos y Tarjeta Vecino.
 
 ## Getting Started
 

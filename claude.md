@@ -1,6 +1,6 @@
 # Portal Vecino / MuniLab — Base de conocimiento para IA
 
-Este documento describe la aplicación Flutter del repositorio `portal_vecino_app` para que un asistente (Claude u otro) entienda **qué es el producto**, **con qué está hecho**, **cómo fluye el negocio en la UI** y **qué hace cada pantalla**. Actualízalo cuando cambien rutas, flujos o integraciones backend.
+Este documento describe la aplicación Flutter del proyecto **Munilab** (carpeta local `Munilab`; paquete Dart `munilab`) para que un asistente (Claude u otro) entienda **qué es el producto**, **con qué está hecho**, **cómo fluye el negocio en la UI** y **qué hace cada pantalla**. Actualízalo cuando cambien rutas, flujos o integraciones backend.
 
 ---
 
@@ -213,7 +213,7 @@ La app está orientada a **vecinos de comuna** (Chile: RUT, comunas tipo Las Con
 - Login/registro/guardados de perfil **no aplican negocio real**.
 - `AppNavigator` vs `Navigator.push` mezclados — revisar cuando se implemente estado de sesión global.
 - `EmprendimientosScreen`: lista en la clase exterior no coincide con grid interno (`EmprendimientoCardList`) — el grid es la fuente de verdad UI.
-- **Tests:** `test/widget_test.dart` importa `package:portal_vecino_app/main.dart`, pero el paquete se llama **`munilab`** (`pubspec.yaml`). Corregir el import a `package:munilab/main.dart` (y las expectativas al título real de la app) para que los tests compilen.
+- **Tests:** `test/widget_test.dart` usa `package:munilab/main.dart` y valida arranque con `flutter_test`; requiere `dev_dependencies flutter_test`.
 
 ---
 
@@ -237,4 +237,4 @@ Cuando pidas cambios:
 2. Mantén naming: imports `package:munilab/...` en archivos que ya lo usan; otros usan relativos (`../`).
 3. Para nuevas pantallas: registrar ruta en `main.dart`, ítem en `MenuDrawer` si aplica, y documentar aquí la ruta y el propósito.
 
-*Última descripción sincronizada con el código del repositorio `portal_vecino_app`.*
+*Última descripción sincronizada con el código del proyecto **Munilab**.*
